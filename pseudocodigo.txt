@@ -1,0 +1,13 @@
+INICIO
+
+    ESCREVA "Digite um valor n: "
+    LEIA n
+    
+    dezena <- n - 1
+    unidade <- 10 - n
+    resultado <- (dezena * 10) + unidade
+    
+    ESCREVA "9 x ", n, " = ", resultado
+
+FIM
+
